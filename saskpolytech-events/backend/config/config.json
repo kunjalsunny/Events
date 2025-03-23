@@ -1,23 +1,10 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "root",
+    "username": "myuser",
+    "password": "mypassword",
     "database": "Events",
     "host": "127.0.0.1",
-    "dialect": "postgres"
-  },
-  "test": {
-    "username": "postgres",
-    "password": "root",
-    "database": "events_test",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
-  },
-  "production": {
-    "username": "postgres",
-    "password": "root",
-    "database": "events_prod",
-    "host": "127.0.0.1",
+    "port": 5432,
     "dialect": "postgres"
   }
 }
